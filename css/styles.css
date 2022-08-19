@@ -114,6 +114,8 @@ body{
     .image{
         height: 220.35px;
         width: 286.82px;
+        display:flex;
+        justify-content: center;
     }
     .text .first-p{
         font-family: Space Mono;
