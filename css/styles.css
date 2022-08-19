@@ -26,7 +26,7 @@ body{
 .image img{
     max-width: 100%;
 }
-.text p{
+.text .first-p{
     Width:586px;
     Height:190px;
     font-family: Space Mono;
@@ -47,7 +47,7 @@ body{
     line-height: 36px;
     letter-spacing: -0.035em;    
     color: #4F4F4F;
-    width: 381px;
+    /* width: 381px; */
     height: 108px;
    margin-top: 40px;
 }
@@ -67,14 +67,20 @@ body{
 
 }
 .footer{
+    margin-top: 100px;
+}
+.footer p{
     font-family: 'Montserrat';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
     color: #BDBDBD;
-    margin-top: 100px;
+
+}
+.footer .username{
+    font-weight: 700;
+    text-decoration: underline;
 }
 .footer a{
     text-decoration: none;
@@ -88,3 +94,53 @@ body{
     font-family: 700;
 
 }
+
+
+
+/* FOR MOBILE PHONES */
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    
+    body{
+        padding-top: 20px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .content{
+        display: block;
+        padding-top: 50px;
+    }
+    .image{
+        height: 220.35px;
+        width: 286.82px;
+    }
+    .text .first-p{
+        font-family: Space Mono;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 45px;
+        letter-spacing: -0.035em;
+        text-align: left;
+        margin-top: 30px;
+        width: fit-content;
+        height: 160px;
+
+    }
+    .text .second-p {
+        font-family: Space Mono;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: -0.035em;
+        text-align: left;
+        margin-top: 0;
+
+    }
+    .text button{
+        margin-top: 20px;
+    }
+  }
+
+
+
