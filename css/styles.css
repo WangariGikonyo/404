@@ -66,3 +66,25 @@ body{
     margin-top: 80px;
 
 }
+.footer{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+    margin-top: 100px;
+}
+.footer a{
+    text-decoration: none;
+    color: #BDBDBD;
+
+}
+.footer a:hover{
+    text-decoration: none;
+    color: #BDBDBD;
+    font-size: 16px;
+    font-family: 700;
+
+}
