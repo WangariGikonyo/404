@@ -1,0 +1,12 @@
+body{
+    padding-top: 40px;
+    padding-left: 77px;
+    color: #333333;
+    font-family: 'Inconsolata', monospace;
+}
+.header p{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
