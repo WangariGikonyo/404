@@ -1,6 +1,9 @@
+.reddish{border:1px solid red}
+.blueish{border:1px dashed blue}
 body{
     padding-top: 40px;
     padding-left: 77px;
+    padding-right: 77px;
     color: #333333;
     font-family: 'Inconsolata', monospace;
 }
@@ -9,4 +12,57 @@ body{
     font-size: 24px;
     line-height: 25px;
     text-transform: uppercase;
+    font-family: 'Inconsolata';
+}
+.content{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 100px;
+}
+.image{
+    Width:539.22px;
+    Height:447.43px
+}
+.image img{
+    max-width: 100%;
+}
+.text p{
+    Width:586px;
+    Height:190px;
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 700;
+    /* line-height: 95px; */
+    letter-spacing: -0.035em;
+    text-align: left;
+    margin: 0;
+
+    
+}
+.text .second-p  {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.035em;    
+    color: #4F4F4F;
+    width: 381px;
+    height: 108px;
+   margin-top: 40px;
+}
+.text button{
+    width: 216px;
+    height: 68px;
+    background: #333333;
+    color: #ffff;
+    font-family: Space Mono;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-align: center;
+    border: none;
+    margin-top: 80px;
+
 }
